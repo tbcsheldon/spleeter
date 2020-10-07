@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/etUsername" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/pref_provider_title_user_name" android:ems="10">
+        <requestFocus />
+    </EditText>
+    <EditText android:id="@id/etPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/pref_provider_title_user_password" android:ems="10" android:inputType="textPassword" />
+    <EditText android:id="@id/etServer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/pref_provider_title_server" android:ems="10" />
+    <TextView android:id="@id/tvInfo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" />
+    <Button android:id="@id/btnOk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_ok" />
+</LinearLayout>
